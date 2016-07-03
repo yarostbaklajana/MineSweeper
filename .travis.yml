@@ -5,6 +5,7 @@ sudo: false
 before_install:
 - chmod 755 ./deploy.sh
 install: npm --production=false install
+script: echo "building..."
 deploy:
   provider: script
   script: ./deploy.sh
