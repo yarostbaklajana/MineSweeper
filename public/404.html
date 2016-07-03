@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <script>
-        var requestedUrl = window.location.href;
+        var loc = window.location;
+        var requestedUrl = loc.href;
         window.sessionStorage.redirect = requestedUrl;
-        var rootUrl = requestedUrl.replace(window.location.pathname, "/MineSweeper/");
-        window.location.replace(rootUrl);
+        var rootUrl = requestedUrl.replace(loc.pathname + loc.search, "/MineSweeper/");
+        loc.replace(rootUrl);
     </script>
 </head>
 <body>
