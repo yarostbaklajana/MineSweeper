@@ -4,6 +4,7 @@
   "description": "React-Redux implementation of MineSweeper",
   "main": "index.js",
   "scripts": {
+    "build": "browserify src/app.jsx --extension=.jsx -t babelify -o public/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/DarkXaHTeP/MineSweeper/issues"
   },
-  "homepage": "https://github.com/DarkXaHTeP/MineSweeper#readme"
+  "homepage": "https://github.com/DarkXaHTeP/MineSweeper#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-router": "^2.5.2"
+  }
 }
