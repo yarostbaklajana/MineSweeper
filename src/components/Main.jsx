@@ -30,7 +30,7 @@ class Main extends Component {
     render() {
         return <div>
             <div className="logo">
-                <img src="/images/minesweeper-logo.png"/>
+                <img src="images/minesweeper-logo.png"/>
             </div>
             <Paper className="menu" zDepth={3} rounded={false}>
                 <List>
