@@ -6,7 +6,6 @@ import Paper from 'material-ui/Paper';
 
 class Main extends Component {
     constructor(props) {
-        console.log(props);
         super(props);
 
         this.openGame = this.openGame.bind(this);
