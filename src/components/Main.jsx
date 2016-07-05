@@ -3,7 +3,7 @@ import React from 'react';
 
 const Main = (props) => (
     <div>
-        <Link to="/game">New Game</Link>
+        <Link to="/MineSweeper/game">New Game</Link>
         <div>Hello world! bla bla</div>
     </div>
 )
