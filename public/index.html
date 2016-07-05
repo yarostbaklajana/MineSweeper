@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
     <title>MineSweeper</title>
     <script>
-        (function(){
+        (function () {
             //GH Pages Hack: restore state in case redirected from 404.html
             var redirect = sessionStorage.redirect;
             if (redirect) {
@@ -16,9 +18,17 @@
             }
         })();
     </script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div id="container"></div>
-    <script src="bundle.js"></script>
+<div class="page">
+    <div class="center-helper">
+        <div id="container"></div>
+    </div>
+</div>
+
+<script src="bundle.js"></script>
 </body>
 </html>

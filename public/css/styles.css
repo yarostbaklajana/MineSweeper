@@ -1,0 +1,63 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 13px;
+    line-height: 20px;
+    background-color: #e8e8e8;
+    margin: 0;
+}
+
+.page {
+    display: table;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.center-helper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logo {
+    width: 40%;
+    min-width:  10rem;
+    max-width:  30rem;
+    margin: 0 auto 1rem;
+}
+
+.logo img {
+    width:100%;
+}
+
+@media screen and (max-height: 680px) and (orientation: landscape) {
+    .logo {
+        display: none;
+    }
+}
+
+.menu {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 600px) {
+    .menu {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .menu {
+        width: 40%;
+    }
+}
