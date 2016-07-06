@@ -27,8 +27,8 @@ class Main extends Component {
     }
 
     render() {
-        return <div class="page">
-            <div class="center-helper">
+        return <div className="page">
+            <div className="center-helper">
                 <div>
                     <div className="logo">
                         <img src="images/minesweeper-logo.png"/>
