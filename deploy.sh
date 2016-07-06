@@ -2,6 +2,9 @@
 set -o errexit #abort if any command fails
 
 REPO=https://DarkXaHTeP:$GH_TOKEN@github.com/DarkXaHTeP/MineSweeper.git
+
+./copy-files.sh
+
 cd public
 git init
 git config user.name "travis CI deploy"

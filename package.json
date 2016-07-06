@@ -4,8 +4,8 @@
   "description": "React-Redux implementation of MineSweeper",
   "main": "index.js",
   "scripts": {
-    "start": "httpster -d public",
-    "build": "browserify src/app.jsx --extension=.jsx -t babelify -o public/bundle.js",
+    "start": "httpster -d ../",
+    "build": "browserify src/app.jsx --extension=.jsx -t babelify -o bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

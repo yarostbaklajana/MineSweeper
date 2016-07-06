@@ -4,6 +4,7 @@ node_js:
 sudo: false
 before_install:
 - chmod 755 ./deploy.sh
+- chmod 755 ./copy-files.sh
 install: npm --production=false install
 script: npm run build
 deploy:
