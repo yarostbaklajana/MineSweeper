@@ -61,3 +61,25 @@ body {
         width: 40%;
     }
 }
+
+.board-container {
+    display: table;
+    height: calc(100vh - 56px);
+    width: 100%;
+}
+
+.board {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100vw;
+    width: 100vw;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+@media screen and (orientation: landscape) {
+    .board {
+        width: calc(100vh - 56px);
+        height: calc(100vh - 56px);
+    }
+}
