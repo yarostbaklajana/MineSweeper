@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var loc = window.location;
+        var requestedUrl = loc.href;
+        window.sessionStorage.redirect = requestedUrl;
+        var rootUrl = requestedUrl.replace(loc.pathname + loc.search, "/MineSweeper/");
+        loc.replace(rootUrl);
+    </script>
+</head>
+<body>
+</body>
+</html>
